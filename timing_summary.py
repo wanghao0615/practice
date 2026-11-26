@@ -10,6 +10,7 @@ def main():
 
     print(f"WNS: {wns_ps:.1f} ps")
     print(f"TNS: {tns_ps:.1f} ps")
+    print(f"Violating endpoints: {len(negative_slacks_ps)}")
 
 
 if __name__ == "__main__":
